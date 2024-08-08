@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Updated body font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Updated header font */
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.red-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: red;
+    color: rgba(117, 110, 110, 0.795);
+    font-size: 18px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.red-box a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+}
+
+.red-box:hover {
+    transform: scale(1.1);
+    background-color: darkred;
+}
